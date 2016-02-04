@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class MafiaGame
+{
+  public static void main(String[] args)
+  {
+    Scanner input = new Scanner(System.in);
+    
+    try
+    {
+      boolean alive = 1;
+      
+      Villager villager1 = new Villager(alive);
+      Villager villager2 = new Villager(alive);
+      Villager villager3 = new Villager(alive);
+      Villager villager4 = new Villager(alive);
+      Villager villager5 = new Villager(alive);
+      Mafia mafia1 = new Mafia(alive);
+      Mafia mafia2 = new Mafia(alive);
+      
+      DayPhase dayPhase1 = new DayPhase;
+    }
+    finally
+    {
+      input.close();
+    }
+  }
+}
